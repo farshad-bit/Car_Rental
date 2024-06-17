@@ -1,0 +1,57 @@
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+/* Hover-Effekt */
+.button:hover {
+    background-color: white;
+    color: #4CAF50;
+}
+
+/* Container für Autos */
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Einzelnes Auto */
+.car {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+    width: 50%; /* Bildgröße auf 50% der Containerbreite setzen */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Auto Details */
+.car p {
+    margin: 5px 0;
+}
+
+/* Keine Autos gefunden */
+.no-cars {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}

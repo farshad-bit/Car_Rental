@@ -1,0 +1,49 @@
+car-rental-website
+├── public
+│   ├── css
+│   │   ├── style.css
+│   │   ├── style_1.css
+│   ├── img
+│   ├── .htaccess
+│   └── index.php
+├── src
+│   ├── Controller
+│   │   ├── BaseController.php
+│   │   ├── HomeController.php
+│   │   ├── CarangeboteController.php
+│   │   └── UserController.php
+│   ├── Model
+│   │   ├── CarModel.php
+│   │   ├── UserModel.php
+│   │   └── ModelInterface.php
+│   ├── Service
+│   │   └── Database.php
+│   ├── View
+│   │   ├── Carangebote
+│   │   │   ├── footer.php
+│   │   │   ├── header.php
+│   │   │   └── index.php
+│   │   ├── User
+│   │   │   ├── footer.php
+│   │   │   ├── header.php
+│   │   │   └── index.php
+│   │   └── home.php
+│   ├── config.php
+│   └── example.config.php
+├── Test
+│   ├── test_user.php
+│   ├── testCarModel.php
+├── vendor
+│   ├── composer
+│   ├── nikic
+│   └── autoload.php
+├── .gitignore
+├── .htaccess
+├── composer.json
+├── composer.lock
+├── sql_db.sql
+└── Project_Structur.txt
+
+
+
+http://localhost/Mario_2024/App/public/
